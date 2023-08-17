@@ -4,3 +4,40 @@
   --pink: #cc006a;
   --lightgrey: #f6f0f0;
 }
+
+body {
+  background-color: var(--lightgrey);
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  color: #333;
+}
+
+/* #top-header */
+
+#top-header {
+  width: 100vw;
+  background: var(--lightgrey);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 0 50px;
+}
+
+#top-header-logo {
+  font-size: 2rem;
+  color: var(--pink);
+  font-weight: 300;
+  position: relative;
+}
+
+#top-header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-header > nav > ul > li > a {
+  padding: 25px 30px;
+  position: relative;
+}
